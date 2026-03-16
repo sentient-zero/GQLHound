@@ -1,28 +1,18 @@
-# Python
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
 
-# Jython
-*.class
-*.jar
-
-# Burp
-*.burp
-*.bak
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*~
 
 # OS
 .DS_Store
 Thumbs.db
-desktop.ini
-
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
-*~
 
 # Exports (may contain sensitive request data)
 *_hound_export*.json

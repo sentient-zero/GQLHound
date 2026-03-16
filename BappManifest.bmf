@@ -1,0 +1,3 @@
+ShortDescription: Passively catalogs GraphQL operations from proxy traffic, tracks variable shapes, and sends to Intruder with auto-marked payload positions.
+EntryPoint: build/libs/gql-hound-2.0.1.jar
+BuildCommand: ./gradlew jar
